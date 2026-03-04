@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Payment of Gratuity Act – Complete HR Guide & Calculator</title>
+
+<meta property="og:title" content="Gratuity Act Complete Guide & Calculator" />
+<meta property="og:description" content="Eligibility | Calculation | Tax | Online Calculator" />
+<meta property="og:image" content="https://iili.io/qCTfSHb.th.png" />
+
+<style>
+
+:root {
+    --primary: #1e3c72;
+    --secondary: #2a5298;
+    --light-bg: #f4f6f9;
+    --card-bg: #ffffff;
+    --accent: #e8f0fe;
+}
+
+/* GLOBAL */
+* {
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: var(--light-bg);
+    color: #333;
+    line-height: 1.7;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: clamp(24px, 3vw, 36px);
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* SECTIONS */
+section {
+    padding: 35px 50px;
+    background: var(--card-bg);
+    margin: 30px auto;
+    max-width: 1200px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+section:hover {
+    transform: translateY(-4px);
+}
+
+/* HEADINGS */
+h2 {
+    color: var(--primary);
+    border-left: 6px solid var(--secondary);
+    padding-left: 12px;
+}
+
+h3 {
+    color: var(--secondary);
+}
+
+/* HIGHLIGHT */
+.highlight {
+    background: var(--accent);
+    padding: 18px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+th {
+    background: var(--secondary);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f9fbff;
+}
+
+/* CALCULATOR STYLING */
+.calculator {
+    max-width: 800px;
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--secondary);
+}
+
+.result-box {
+    margin-top: 25px;
+    padding: 20px;
+    background: #f1f6fb;
+    border-left: 6px solid var(--primary);
+    border-radius: 8px;
+}
+
+.disclaimer {
+    margin-top: 30px;
+    font-size: 13px;
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: var(--primary);
+    color: white;
+    margin-top: 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    section {
+        padding: 20px;
+        margin: 15px;
+    }
+
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    table th {
+        display: none;
+    }
+
+    table tr {
+        margin-bottom: 15px;
+        border-bottom: 2px solid #eee;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Payment of Gratuity Act, 1972</h1>
+<p>Complete HR Compliance Guide + Advanced Calculator</p>
+</header>
+
+<section>
+<h2>Eligibility Rule</h2>
+<div class="highlight">
+Eligible after completion of 4 years + 240 days of continuous service.
+</div>
+<p>Exception: Death or Permanent Disablement – No minimum service required.</p>
+</section>
+
+<section>
+<h2>Gratuity Formula</h2>
+<p><strong>(Basic + DA × 15 × Years of Service) ÷ 26</strong></p>
+<p>Maximum Limit: ₹20,00,000</p>
+</section>
+
+<section>
+<h2>Quick HR Summary</h2>
+<table>
+<tr><th>Particular</th><th>Details</th></tr>
+<tr><td>Minimum Service</td><td>4 Years + 240 Days</td></tr>
+<tr><td>Exception</td><td>Death / Permanent Disablement</td></tr>
+<tr><td>Maximum Limit</td><td>₹20 Lakhs</td></tr>
+<tr><td>Payment Timeline</td><td>Within 30 Days</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Advanced Gratuity Calculator</h2>
+
+<div class="calculator">
+
+<label>Last Drawn Basic Salary (₹)</label>
+<input type="number" id="basic">
+
+<label>Last Drawn Dearness Allowance (₹)</label>
+<input type="number" id="da">
+
+<label>Completed Years of Service</label>
+<input type="number" id="years">
+
+<label>Additional Months</label>
+<input type="number" id="months">
+
+<button onclick="calculateGratuity()">Calculate</button>
+
+<div class="result-box" id="result" style="display:none;"></div>
+
+<div class="disclaimer">
+This tool is for educational purposes only. Final liability depends on company records and amendments.
+</div>
+
+</div>
+</section>
+
+<footer>
+© HR Compliance Guide | Gratuity Act Complete Reference Page
+</footer>
+
+<script>
+
+function calculateGratuity() {
+
+let basic = parseFloat(document.getElementById("basic").value) || 0;
+let da = parseFloat(document.getElementById("da").value) || 0;
+let years = parseInt(document.getElementById("years").value) || 0;
+let months = parseInt(document.getElementById("months").value) || 0;
+
+let salary = basic + da;
+
+if (months >= 6) {
+    years += 1;
+}
+
+let gratuity = (salary * 15 * years) / 26;
+
+let exemptionLimit = 2000000;
+let taxable = gratuity > exemptionLimit ? gratuity - exemptionLimit : 0;
+let estimatedTax = taxable * 0.30;
+
+document.getElementById("result").style.display = "block";
+document.getElementById("result").innerHTML = `
+<b>Total Gratuity:</b> ₹${gratuity.toLocaleString(undefined,{maximumFractionDigits:0})}<br>
+<b>Taxable Portion:</b> ₹${taxable.toLocaleString()}<br>
+<b>Estimated Tax (30%):</b> ₹${estimatedTax.toLocaleString(undefined,{maximumFractionDigits:0})}<br>
+<b>Net Estimated Amount:</b> ₹${(gratuity - estimatedTax).toLocaleString(undefined,{maximumFractionDigits:0})}
+`;
+
+}
+
+</script>
+
+</body>
+</html>
