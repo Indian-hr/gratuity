@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment of Gratuity Act - Complete HR Guide</title>
+<style>
+:root {
+    --primary: #1e3c72;
+    --secondary: #2a5298;
+    --light-bg: #f4f6f9;
+    --card-bg: #ffffff;
+    --accent: #e8f0fe;
+}
+
+/* Global Reset */
+* {
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+body {
+    font-family: 'Segoe UI', 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--light-bg);
+    color: #333;
+    line-height: 1.7;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+header h1 {
+    margin: 0;
+    font-size: clamp(24px, 3vw, 36px);
+    letter-spacing: 0.5px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 16px;
+    opacity: 0.95;
+}
+
+/* Sections */
+section {
+    padding: 30px 40px;
+    background: var(--card-bg);
+    margin: 30px auto;
+    max-width: 1200px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+
+section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2 {
+    color: var(--primary);
+    border-left: 6px solid var(--secondary);
+    padding-left: 12px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: var(--secondary);
+}
+
+/* Highlight Box */
+.highlight {
+    background: var(--accent);
+    padding: 18px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: var(--secondary);
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background: #f9fbff;
+}
+
+tr:hover {
+    background: #eef3ff;
+}
+
+/* Lists */
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+    background: var(--primary);
+    color: white;
+    margin-top: 40px;
+}
+
+/* --------------------------- */
+/* DESKTOP / LARGE SCREENS */
+/* --------------------------- */
+@media (min-width: 1024px) {
+
+    body {
+        font-size: 17px;
+    }
+
+    section {
+        padding: 40px 60px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    table th, table td {
+        padding: 14px 16px;
+    }
+
+}
+
+/* --------------------------- */
+/* TABLET */
+/* --------------------------- */
+@media (max-width: 1023px) {
+
+    section {
+        padding: 25px;
+        margin: 20px;
+    }
+
+}
+
+/* --------------------------- */
+/* MOBILE */
+/* --------------------------- */
+@media (max-width: 768px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 35px 15px;
+    }
+
+    section {
+        padding: 18px;
+        margin: 15px;
+        border-radius: 12px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    table tr {
+        margin-bottom: 15px;
+        border-bottom: 2px solid #eee;
+    }
+
+    table td {
+        border: none;
+        padding: 8px 0;
+    }
+
+    table th {
+        display: none;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Payment of Gratuity Act, 1972 - Complete HR Compliance Guide</h1>
+<p>Eligibility | Calculation | Exclusions | Code on Wages Clarification</p>
+</header>
+
+<section>
+<h2>1. Applicability</h2>
+<ul>
+<li>Applicable to factories, mines, oilfields, plantations, ports, railways</li>
+<li>Shops & establishments employing 10 or more employees</li>
+<li>Once covered, continues even if employee count falls below 10</li>
+</ul>
+</section>
+
+<section>
+<h2>2. Key Definitions</h2>
+<h3>Employee</h3>
+<p>Any person employed for wages (excluding apprentices) in skilled, unskilled, supervisory, managerial, technical, or clerical roles.</p>
+
+<h3>Continuous Service</h3>
+<ul>
+<li>Worked 240 days in preceding 12 months (190 days for mines below ground)</li>
+<li>Includes paid leave, maternity leave, sickness, accident, layoff</li>
+</ul>
+
+<h3>Wages (For Calculation)</h3>
+<p><strong>Includes:</strong> Basic + Dearness Allowance</p>
+<p><strong>Excludes:</strong> HRA, Bonus, Commission, Overtime, Allowances</p>
+</section>
+
+<section>
+<h2>3. Eligibility for Gratuity</h2>
+<div class="highlight">
+<strong>Eligible after completion of 4 years and 240 days of continuous service.</strong>
+</div>
+
+<h3>Gratuity Payable On:</h3>
+<ul>
+<li>Superannuation</li>
+<li>Retirement</li>
+<li>Resignation</li>
+<li>Termination (except misconduct cases)</li>
+<li>Death of employee (No minimum service required)</li>
+<li>Permanent disablement (No minimum service required)</li>
+</ul>
+
+<h3>Special Note:</h3>
+<p>In case of death or permanent disablement, gratuity becomes payable irrespective of completion of 5 years.</p>
+</section>
+
+<section>
+<h2>4. Calculation of Gratuity</h2>
+<p><strong>Formula:</strong></p>
+<p>(Last Drawn Salary × 15 × Years of Service) ÷ 26</p>
+
+<h3>Example</h3>
+<p>Basic + DA = ₹50,000<br>
+Service = 10 years</p>
+<p><strong>Gratuity = (50,000 × 15 × 10) ÷ 26 = ₹2,88,462</strong></p>
+
+<h3>Rounding Rule</h3>
+<ul>
+<li>Above 6 months → Rounded to next year</li>
+<li>Less than 6 months → Ignored</li>
+</ul>
+
+<h3>Maximum Limit</h3>
+<p>₹20,00,000</p>
+</section>
+
+<section>
+<h2>5. Forfeiture of Gratuity</h2>
+<ul>
+<li>Damage/loss caused to employer (to extent of damage)</li>
+<li>Riotous or disorderly conduct</li>
+<li>Act of violence</li>
+<li>Offence involving moral turpitude during employment</li>
+</ul>
+</section>
+
+<section>
+<h2>6. Nomination</h2>
+<ul>
+<li>Employee must submit nomination after 1 year of service</li>
+<li>In case of death, amount paid to nominee/legal heir</li>
+</ul>
+</section>
+
+<section>
+<h2>7. Payment & Compliance</h2>
+<ul>
+<li>Payment within 30 days of becoming payable</li>
+<li>Interest applicable for delay</li>
+<li>Maintain records and display notices</li>
+<li>Issue calculation sheet to employee</li>
+</ul>
+</section>
+
+<section>
+<h2>8. Tax Treatment</h2>
+<ul>
+<li>Government employees – Fully exempt</li>
+<li>Private employees – Exempt up to ₹20,00,000 or calculated limit (whichever is lower)</li>
+</ul>
+</section>
+
+<section>
+<h2>9. Fixed Term Employees</h2>
+<p>Eligible for gratuity upon completion of contract period even if service is less than 5 years.</p>
+</section>
+
+<section>
+<h2>10. Code on Wages – Clarification & Misconception</h2>
+<div class="highlight">
+<strong>Common Misconception:</strong> Gratuity becomes applicable after 1 year under Code on Wages.
+</div>
+
+<h3>Reality:</h3>
+<ul>
+<li>Code on Wages does NOT change gratuity eligibility to 1 year.</li>
+<li>Gratuity eligibility remains governed by the Gratuity Act provisions.</li>
+<li>4 years + 240 days rule (judicial interpretation) continues.</li>
+<li>1-year rule applies only for nomination submission, not eligibility.</li>
+</ul>
+
+<h3>Impact of Wage Definition Under New Codes:</h3>
+<ul>
+<li>Uniform wage definition across labour codes</li>
+<li>Basic wage component may increase</li>
+<li>Higher basic wage = Higher gratuity liability</li>
+</ul>
+</section>
+
+<section>
+<h2>11. Quick HR Summary Table</h2>
+<table>
+<tr><th>Particular</th><th>Details</th></tr>
+<tr><td>Minimum Service</td><td>4 Years + 240 Days</td></tr>
+<tr><td>Exception</td><td>Death / Permanent Disablement</td></tr>
+<tr><td>Formula</td><td>(Basic + DA × 15 × Service) ÷ 26</td></tr>
+<tr><td>Maximum Limit</td><td>₹20 Lakhs</td></tr>
+<tr><td>Payment Timeline</td><td>Within 30 Days</td></tr>
+</table>
+</section>
+
+<footer>
+© HR Compliance Guide | Gratuity Act Complete Reference Page
+</footer>
+
+</body>
+</html>
